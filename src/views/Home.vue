@@ -1,16 +1,15 @@
 <template>
-    <main>
-        <h1>
-            Hello World!
-        </h1>
-    </main>
+    <header>
+        <Header/>
+    </header>
 </template>
 
 <script>
 
+    import Header from "../components/Header";
     export default {
         name: 'home',
-        components: {},
+        components: {Header},
     }
 </script>
 

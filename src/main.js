@@ -7,12 +7,11 @@ import "./assets/sass/app.sass";
 
 
 import {
-  faHome,
-  faSync
+ faUser
 } from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome';
 
-library.add(faHome, faSync);
+library.add(faUser);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;
