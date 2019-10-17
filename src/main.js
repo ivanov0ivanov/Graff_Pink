@@ -6,9 +6,7 @@ import {library} from '@fortawesome/fontawesome-svg-core';
 import "./assets/sass/app.sass";
 
 
-import {
- faUser
-} from '@fortawesome/free-solid-svg-icons';
+import {faUser} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome';
 
 library.add(faUser);
@@ -17,7 +15,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.config.productionTip = false;
 
 new Vue({
-  store,
-  router,
-  render: h => h(App),
+    store,
+    router,
+    render: h => h(App),
 }).$mount('#app');

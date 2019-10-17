@@ -1,13 +1,15 @@
-.header_container
-  width: 100%
-  background: url(../../img/png/header.png) no-repeat
-
 .nav_container
   display: flex
   justify-content: space-around
   height: 100px
   background-color: #ffffff
-  opacity: 0.8
+  opacity: .9
+
+.label_container
+  display: flex
+  align-items: center
+  align-self: center
+  line-height: 1
 
 .label
   span
@@ -16,17 +18,18 @@
 
     &:first-child
       color: #000000
+
     &:last-child
       color: #b73958
 
 .nav-bar
   display: flex
   align-items: center
-  color: #454545
+  color: #8C8D8D
 
   .nav-item
     margin-right: 30px
-    color: #454545
+    color: inherit
 
     &:last-child
       margin-right: 0
@@ -35,7 +38,27 @@
       padding: 5px 10px
       border-radius: 5px
 
+      .nav-link
+        &:hover
+          color: #ffa7a8
+
   .nav-link
     color: inherit
-    font-size: 16px
-    font-family: "Segoe UI",serif
+    font: 400 16px "Segoe UI", serif
+
+    &:hover
+      color: #DE6D6E
+
+.welcome_container
+  width: 100%
+  color: #f4f4f4
+  text-align: center
+  position: absolute
+  bottom: 85px
+
+  .welcome_title
+    text-transform: uppercase
+    font: 70px 'Alte Haas Grotesk Bold'
+
+  .welcome_description
+      font: 25px 'Univers LT 45 Light'
