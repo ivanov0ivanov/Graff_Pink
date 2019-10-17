@@ -1,9 +1,12 @@
 .nav_container
+  width: 100%
   display: flex
   justify-content: space-around
   height: 100px
   background-color: #ffffff
   opacity: .9
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+  position: fixed
 
 .label_container
   display: flex
@@ -12,6 +15,12 @@
   line-height: 1
 
 .label
+  &:hover
+    span
+      &:last-child
+        color: lighten(#DE6D6E, 5%)
+        transition: all .2s ease
+
   span
     font-size: 40px
     font-family: 'Lavanderia Regular', serif
@@ -21,6 +30,7 @@
 
     &:last-child
       color: #b73958
+
 
 .nav-bar
   display: flex
@@ -35,7 +45,7 @@
       margin-right: 0
       color: #ffffff
       background-color: #DE6D6E
-      padding: 5px 10px
+      padding: 8px 15px
       border-radius: 5px
 
       .nav-link

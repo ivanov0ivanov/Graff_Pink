@@ -3,7 +3,7 @@
         <div class="article_item">
             <img src="../assets/img/png/article-img1.png" alt="article-img">
             <div class="article-heading_container">
-                <h3 class="article_title">Lorem Ipsum is simply</h3>
+                <router-link to="#"><h3 class="article_title">Lorem Ipsum is simply</h3></router-link>
                 <p class="article_description">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
